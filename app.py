@@ -16,7 +16,7 @@ app = Flask(__name__)
 LANGUAGE = "english"
 SENTENCES_COUNT = 7
 
-@app.route("/rangkum318149659:AAHaM5VuYYoMgjQM7rCDD8L42JbxK254b6o", methods=['POST'])
+@app.route("/rangkum", methods=['POST'])
 def rangkum():
     # url = "http://www.theverge.com/2016/10/18/13304090/google-pixel-phone-review-pixel-xl"	
     url = request.json['url']
