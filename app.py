@@ -14,7 +14,7 @@ import string
 app = Flask(__name__)
 
 LANGUAGE = "english"
-SENTENCES_COUNT = 10
+SENTENCES_COUNT = 7
 
 @app.route("/rangkum318149659:AAHaM5VuYYoMgjQM7rCDD8L42JbxK254b6o", methods=['POST'])
 def rangkum():
